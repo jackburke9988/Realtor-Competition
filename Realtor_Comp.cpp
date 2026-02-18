@@ -1,21 +1,3 @@
-//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-// Program: Realtor Competition Results - Analyzes sales data for multiple
-//          realtors and identifies the top performer and worst performer.
-// Process: Reads realtor names and house sales from input file, handles
-//          negative values by converting to absolute values, finds the
-//          realtor with most and least houses sold, and displays results.
-// Results: Displays all realtors with their sales, identifies the winner
-//          and worst performer, and calculates total houses sold.
-//
-// Class: CS2010
-// Section: 1003
-// Term: Spring 2026
-// Author: Jack Burke
-//
-// Reflection: The main difficulty was managing the multiple arrays and insuring that each array properly stores names vs integers.
-//             Next time, I would test and make sure each individual array works as I go, before trying both arrays at once.
-//-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-
 #include <iostream>
 #include <fstream>
 #include <string>
